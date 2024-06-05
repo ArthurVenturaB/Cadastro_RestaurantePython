@@ -8,7 +8,8 @@ def exibir_nome_programa():
     print ("𝓢𝓪𝓫𝓸𝓻 𝓔𝔁𝓹𝓻𝓮𝓼𝓼\n")
 
 def exibir_opcoes():
-    """Essa função exibe as opções presentes no menu principal"""
+    """Essa função exibe as opções presentes no menu principal
+    Le as opções menu(Teste Menu)"""
     print("1. Cadastrar restaurante")
     print("2. Listar restaurante")
     print("3. Ativar restaurante")
