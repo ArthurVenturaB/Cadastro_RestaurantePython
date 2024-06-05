@@ -4,7 +4,7 @@ lista_de_restaurantes = [{"nome" : "Omura" , "categoria" : "Japonesa" , "ativo" 
                          {"nome" : "La casita", "categoria" : "Hambuergueria", "ativo" : False},]
 
 def exibir_nome_programa():
-    """Essa função é responsavel por exibir o nome do programa no menu principla!"""
+    """Essa função é responsável por exibir o nome do programa no menu principla!"""
     print ("𝓢𝓪𝓫𝓸𝓻 𝓔𝔁𝓹𝓻𝓮𝓼𝓼\n")
 
 def exibir_opcoes():
@@ -72,7 +72,7 @@ def listar_restaurantes():
     for nome_do_restaurante in lista_de_restaurantes:
         nome_restaurante = nome_do_restaurante["nome"]
         categoria_restaurante = nome_do_restaurante["categoria"]
-        restaurante_ativo = "Ativao" if nome_do_restaurante["ativo"] else "Desativado"
+        restaurante_ativo = "Ativado" if nome_do_restaurante["ativo"] else "Desativado"
 
         print(f' - {nome_restaurante.ljust(20)} | {categoria_restaurante.ljust(15)} | {restaurante_ativo.ljust(8)}')
 
